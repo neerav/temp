@@ -1,4 +1,48 @@
-.body{
-  margin:0;
-  padding:0;
+.OS {
+ width: 100%; 
+margin: 0; 
+position: relative;
+left:0;
+}
+input[type=submit]{
+font-size: 25px;
+line-height: 25px;
+position: relative;
+background-color: #ED1947;
+display: block;
+width:100%;
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+text-decoration: none;
+color: #FFF;
+font-weight: normal;
+padding: 10px;
+border-radius: 10px;
+border: 0px none;
+cursor: pointer;
+transition: background-color 0.14s ease-in-out 0s;
+margin:10px auto;
+box-shadow: 0px 0px 5px #000;
+}
+input[type=submit]:hover, input[type=submit]:focus{
+background-color: #e0123e;
+}
+input[type=submit]:active{
+top:1px;
+background-color: #db113d;
+}
+
+.MF > span > span > span > span:nth-child(2){
+width:100%;
+}
+
+input[type=text]{
+display:block;
+margin: 3px 0;
+background: #FFF;
+box-shadow: inset 1px 1px 2px 0px #888;
+border: none;
+width:100%;
+padding: 5px;
+font-size: 15px;
+box-sizing: border-box;
 }
