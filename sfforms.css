@@ -53,12 +53,12 @@ tweeners.
  font-size: 15px;
  box-sizing: border-box;
  }
-} // end of media query
+}
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 
-} // end of media query
+}
 
 /*********************
 TABLET & SMALLER LAPTOPS
@@ -69,7 +69,7 @@ you can add resource intensive styles.
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 
-} // end of media query
+}
 
 /*********************
 DESKTOP
@@ -80,5 +80,5 @@ you can add resource intensive styles.
 @media only screen and (min-width: 1024px) {
 
 
-} // end of media query
+}
 
