@@ -13,6 +13,7 @@ body{
 	font-family: "Bree Serif", Georgia, "Times New Roman", Times, serif;
 	font-weight: 400;
 	font-size: 22px;
+	line-height: 32px;
 	color:#FFF;
 	text-align:center;
 }
@@ -215,6 +216,26 @@ you can add resource intensive styles.
 	input[type=submit]:active{
 		 top:1px;
 		 background-color: #0069B1;
+	}
+	.MF > span > span:nth-child(1) {
+		width:30%;
+		float:left;
+	}
+	.MF > span > span:nth-child(2) {
+		width:70%;
+		float:left;
+	}
+	.MF > span > span:nth-child(2) > span > span:nth-child(2) {
+		width:80%;
+		float:left;
+	}
+	.MF > span > span:nth-child(2) > span > span:nth-child(2) > span, .MF > span > span:nth-child(2) > span > span:nth-child(2) > fieldset{
+		width:50%;
+		float:left;
+	}
+	.MF > span > span:nth-child(2) > span > span:nth-child(2) {
+		width:20%;
+		float:left;
 	}
 	.MF > span > span > span > span:nth-child(2){
 	 	width:100%;
