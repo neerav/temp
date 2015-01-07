@@ -23,104 +23,99 @@ larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 *********************/
 @media only screen and (max-width: 479px) {
- .OS {
-  width: 100%; 
- margin: 0; 
- position: relative;
- left:0;
- }
- input[type=submit]{
- font-size: 25px;
- line-height: 25px;
- position: relative;
- background-color: #ED1947;
- display: block;
- width:100%;
- text-decoration: none;
- color: #FFF;
- font-weight: normal;
- padding: 10px;
- border-radius: 10px;
- border: 0px none;
- cursor: pointer;
- transition: background-color 0.14s ease-in-out 0s;
- margin:10px auto;
- box-shadow: 0px 0px 10px #888;
- }
- input[type=submit]:hover, input[type=submit]:focus{
- background-color: #e0123e;
- }
- input[type=submit]:active{
- top:1px;
- background-color: #db113d;
- }
- 
- .MF > span > span > span > span:nth-child(2){
- width:100%;
- }
- 
- input[type=text]{
- display:block;
- margin: 3px 0;
- background: #FFF;
- box-shadow: inset 1px 1px 2px 0px #888;
- border: none;
- width:100%;
- padding: 5px;
- font-size: 15px;
- box-sizing: border-box;
- }
+	.OS {
+		 width: 100%; 
+		 margin: 0; 
+		 position: relative;
+		 left:0;
+	}
+	input[type=submit]{
+		 font-size: 15px;
+		 line-height: 17px;
+		 position: relative;
+		 background-color: #0076BE;
+		 display: block;
+		 width:100%;
+		 text-decoration: none;
+		 color: #FFF;
+		 font-weight: normal;
+		 padding: 5px;
+		 border-radius: 3px;
+		 border: 0px none;
+		 cursor: pointer;
+		 transition: background-color 0.14s ease-in-out 0s;
+		 margin:3px auto;
+		 box-shadow: 0px 0px 10px #888;
+	}
+	input[type=submit]:hover, input[type=submit]:focus{
+	 	background-color: #006CB4;
+	}
+	input[type=submit]:active{
+		 top:1px;
+		 background-color: #0069B1;
+	}
+	.MF > span > span > span > span:nth-child(2){
+	 	width:100%;
+	}
+	input[type=text]{
+		 display:block;
+		 margin: 3px 0;
+		 background: #FFF;
+		 box-shadow: inset 1px 1px 2px 0px #888;
+		 border: none;
+		 width:100%;
+		 padding: 5px;
+		 font-size: 15px;
+		 box-sizing: border-box;
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.OS {
-  width: 100%; 
- margin: 0; 
- position: relative;
- left:0;
- }
- input[type=submit]{
- font-size: 25px;
- line-height: 25px;
- position: relative;
- background-color: #ED1947;
- display: block;
- width:100%;
- text-decoration: none;
- color: #FFF;
- font-weight: normal;
- padding: 10px;
- border-radius: 10px;
- border: 0px none;
- cursor: pointer;
- transition: background-color 0.14s ease-in-out 0s;
- margin:10px auto;
- box-shadow: 0px 0px 10px #888;
- }
- input[type=submit]:hover, input[type=submit]:focus{
- background-color: #e0123e;
- }
- input[type=submit]:active{
- top:1px;
- background-color: #db113d;
- }
- 
- .MF > span > span > span > span:nth-child(2){
- width:100%;
- }
- 
- input[type=text]{
- display:block;
- margin: 3px 0;
- background: #FFF;
- box-shadow: inset 1px 1px 2px 0px #888;
- border: none;
- width:100%;
- padding: 5px;
- font-size: 15px;
- box-sizing: border-box;
- }
-
+	.OS {
+		 width: 100%; 
+		 margin: 0; 
+		 position: relative;
+		 left:0;
+	}
+	input[type=submit]{
+		 font-size: 15px;
+		 line-height: 17px;
+		 position: relative;
+		 background-color: #0076BE;
+		 display: block;
+		 width:100%;
+		 text-decoration: none;
+		 color: #FFF;
+		 font-weight: normal;
+		 padding: 5px;
+		 border-radius: 3px;
+		 border: 0px none;
+		 cursor: pointer;
+		 transition: background-color 0.14s ease-in-out 0s;
+		 margin:3px auto;
+		 box-shadow: 0px 0px 10px #888;
+	}
+	input[type=submit]:hover, input[type=submit]:focus{
+	 	background-color: #006CB4;
+	}
+	input[type=submit]:active{
+		 top:1px;
+		 background-color: #0069B1;
+	}
+	.MF > span > span > span > span:nth-child(2){
+	 	width:100%;
+	}
+	input[type=text]{
+		 display:block;
+		 margin: 3px 0;
+		 background: #FFF;
+		 box-shadow: inset 1px 1px 2px 0px #888;
+		 border: none;
+		 width:100%;
+		 padding: 5px;
+		 font-size: 15px;
+		 box-sizing: border-box;
+	}
 }
 
 /*********************
@@ -130,53 +125,51 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-.OS {
-  width: 100%; 
- margin: 0; 
- position: relative;
- left:0;
- }
- input[type=submit]{
- font-size: 25px;
- line-height: 25px;
- position: relative;
- background-color: #ED1947;
- display: block;
- width:100%;
- text-decoration: none;
- color: #FFF;
- font-weight: normal;
- padding: 10px;
- border-radius: 10px;
- border: 0px none;
- cursor: pointer;
- transition: background-color 0.14s ease-in-out 0s;
- margin:10px auto;
- box-shadow: 0px 0px 10px #888;
- }
- input[type=submit]:hover, input[type=submit]:focus{
- background-color: #e0123e;
- }
- input[type=submit]:active{
- top:1px;
- background-color: #db113d;
- }
- 
- .MF > span > span > span > span:nth-child(2){
- width:100%;
- }
- 
- input[type=text]{
- display:block;
- margin: 3px 0;
- background: #FFF;
- box-shadow: inset 1px 1px 2px 0px #888;
- border: none;
- width:100%;
- padding: 5px;
- font-size: 15px;
- box-sizing: border-box;
- }
+	.OS {
+		 width: 100%; 
+		 margin: 0; 
+		 position: relative;
+		 left:0;
+	}
+	input[type=submit]{
+		 font-size: 15px;
+		 line-height: 17px;
+		 position: relative;
+		 background-color: #0076BE;
+		 display: block;
+		 width:100%;
+		 text-decoration: none;
+		 color: #FFF;
+		 font-weight: normal;
+		 padding: 5px;
+		 border-radius: 3px;
+		 border: 0px none;
+		 cursor: pointer;
+		 transition: background-color 0.14s ease-in-out 0s;
+		 margin:3px auto;
+		 box-shadow: 0px 0px 10px #888;
+	}
+	input[type=submit]:hover, input[type=submit]:focus{
+	 	background-color: #006CB4;
+	}
+	input[type=submit]:active{
+		 top:1px;
+		 background-color: #0069B1;
+	}
+	.MF > span > span > span > span:nth-child(2){
+	 	width:100%;
+	}
+	input[type=text]{
+		 display:block;
+		 margin: 3px 0;
+		 background: #FFF;
+		 box-shadow: inset 1px 1px 2px 0px #888;
+		 border: none;
+		 width:100%;
+		 padding: 5px;
+		 font-size: 15px;
+		 box-sizing: border-box;
+	}
 }
 
 /*********************
