@@ -132,6 +132,7 @@ you can add resource intensive styles.
 		 margin: 0; 
 		 position: relative;
 		 left:0;
+		 padding: 3px 0;
 	}
 	input[type=submit]{
 		 font-size: 15px;
