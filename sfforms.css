@@ -2,10 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Kalam:400,700|Bree+Serif);
 
 body *{
- font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight: 300;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	font-weight: 300;
 	font-size: 14px;
-	line-height: 1.5;
+	line-height: 1.2;
 }
 /*********************
 TINY MOBILE DEVICES
@@ -27,7 +27,6 @@ tweeners.
  background-color: #ED1947;
  display: block;
  width:100%;
- font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
  text-decoration: none;
  color: #FFF;
  font-weight: normal;
