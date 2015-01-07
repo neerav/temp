@@ -233,10 +233,6 @@ you can add resource intensive styles.
 		width:50%;
 		float:left;
 	}
-	.MF > span > span:nth-child(2) > span > span:nth-child(2) {
-		width:20%;
-		float:left;
-	}
 	.MF > span > span > span > span:nth-child(2){
 	 	width:100%;
 	}
