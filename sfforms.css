@@ -72,7 +72,7 @@ tweeners.
 	}
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 753px) {
 	.OS {
 		 width: 100%; 
 		 margin: 0; 
@@ -126,7 +126,7 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 754px) {
 	.OS {
 		 width: 100%; 
 		 margin: 0; 
