@@ -12,7 +12,6 @@
 	font-size: 22px;
 	line-height: 32px;
 	color:#FFF;
-	text-align:center;
 }
 /*********************
 TINY MOBILE DEVICES
@@ -129,7 +128,7 @@ you can add resource intensive styles.
 		 margin: 0; 
 		 position: relative;
 		 left:0;
-		 padding: 3px 0;
+		 padding: 10px 0;
 	}
 	input[type=submit]{
 		 font-size: 15px;
@@ -156,22 +155,6 @@ you can add resource intensive styles.
 		 top:1px;
 		 background-color: #0069B1;
 	}
-	.MF > span > span:nth-child(1) {
-		width:30%;
-		float:left;
-	}
-	.MF > span > span:nth-child(2) {
-		width:70%;
-		float:left;
-	}
-	.MF > span > span:nth-child(2) > span > span:nth-child(2) {
-		width:80%;
-		float:left;
-	}
-	.MF > span > span:nth-child(2) > span > span:nth-child(2) > span, .MF > span > span:nth-child(2) > span > span:nth-child(2) > fieldset{
-		width:50%;
-		float:left;
-	}
 	.MF > span > span > span > span:nth-child(2){
 	 	width:100%;
 	}
@@ -181,13 +164,9 @@ you can add resource intensive styles.
 		 background: #FFF;
 		 box-shadow: inset 1px 1px 2px 0px #888;
 		 border: none;
-		 width:97%;
+		 width:100%;
 		 padding: 5px;
 		 font-size: 15px;
 		 box-sizing: border-box;
-	}
-	.ER{
-		position: absolute;
-		margin-top: 30px;
 	}
 }
