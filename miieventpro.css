@@ -13,6 +13,9 @@
 	line-height: 32px;
 	color:#FFF;
 }
+.TI, .HDM, .FUI {
+	display: none;
+}
 /*********************
 TINY MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
