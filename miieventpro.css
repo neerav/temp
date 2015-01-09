@@ -161,7 +161,7 @@ you can add resource intensive styles.
 	.MF > span > span > span > span:nth-child(2){
 	 	width:100%;
 	}
-	input[type=text]{
+	input[type=text], select{
 		 display:block;
 		 margin: 3px 0;
 		 background: #FFF;
